@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUMYAI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>YUMYAI</h1>
+        <div class="button-container">
+            <!-- Liens vers les pages d'inscription et de connexion -->
+            <a href="{{ url_for('inscription') }}" class="button">S'inscrire</a>
+            <a href="{{ url_for('connexion') }}" class="button">Se connecter</a>
+        </div>
+    </div>
+</body>
+</html>
